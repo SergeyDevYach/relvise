@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__container _container">
-        <nav class="header__nav">
-          <a href="#" class="header__logo">
-            <img src="images/logo/navbar-brand.png" alt="Логотип" />
-          </a>
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="#" class="header__link">Home</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Product</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Pricing</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__desc">
-          <h1 class="header__title title">Finance and Consultancy Solution</h1>
-          <p class="header__subtitle">
-            We know how large objects will act, but things on a small scale.
-          </p>
-          <div class="header__button">
-            <a href="#" class="header__btn header__btn-orange">Get Quote Now</a>
-            <a href="#" class="header__btn header__btn-transparent"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-    </header>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Relvise</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--positioon">
+			<div class="header__container container">
+				<a href="#" class="header__logo">Relvise</a>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li class="header__item"><a href="#" class="header__link">Home</a></li>
+						<li class="header__item"><a href="#" class="header__link">Product</a></li>
+						<li class="header__item"><a href="#" class="header__link">Pricing</a></li>
+						<li class="header__item"><a href="#" class="header__link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page-main main-block">
+				<div class="main-block__container container">
+					<div class="main-block__body">
+						<h1 class="main-block__title">Finance and Consultancy Solution</h1>
+						<p class="main-block__subtitle">We know how large objects will act,
+							but things on a small scale.
+						</p>
+						<div class="main-block__buttons">
+							<a href="#" class="main-block__button">Get Quote Now</a>
+							<a href="" class="main-block__button main-block__button--transparent">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__bg">
+					<img src="./images/background.jpg" alt="cover">
+				</div>
+			</div>
+			<section class="services">
+				<div class="services__container container">
+					<div class="services__body">
+						<ul class="services__list">
+							<li class="services__item">
+								<img class="services__icon" src="./images/services/01.svg" alt="">
+								<h3 class="services__title">Environmental Consulting</h3>
+								<p class="services__subtitle">We focus on ergonomics and
+									meeting you where you work.
+								</p>
+							</li>
+							<li class="services__item">
+								<img class="services__icon" src="./images/services/02.svg" alt="">
+								<h3 class="services__title">Environmental Consulting</h3>
+								<p class="services__subtitle">We focus on ergonomics and
+									meeting you where you work.
+								</p>
+							</li>
+							<li class="services__item services__item--active">
+								<img class="services__icon" src="./images/services/03.svg" alt="">
+								<h3 class="services__title">Environmental Consulting</h3>
+								<p class="services__subtitle">We focus on ergonomics and
+									meeting you where you work.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+
 </html>
