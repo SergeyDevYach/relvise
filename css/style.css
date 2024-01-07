@@ -941,3 +941,29 @@ body {
 	letter-spacing: 0.2px;
 	color: #fff;
 }
+
+.footer__bottom {
+	background: #FAFAFA;
+	padding: 25px 0;
+}
+
+.footer__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.footer__label {
+	font-weight: 600;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+}
+
+.footer__socials {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.footer__icon {}
