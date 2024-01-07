@@ -900,16 +900,15 @@ body {
 
 /* ----------------------------------Footer------------------------------------------------------ */
 
-.footer {}
 
 .footer__top {
 	background: #17213C;
 }
 
-.footer__container {}
-
 .footer__rows {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding: 50px 0;
 	gap: 30px;
 }
@@ -927,9 +926,16 @@ body {
 
 .footer__menu {}
 
-.footer__list {}
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
 .footer__item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 	font-weight: 600;
 	line-height: 1.7;
 	letter-spacing: 0.2px;
